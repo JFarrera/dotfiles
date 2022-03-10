@@ -1,0 +1,82 @@
+{
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    // **********  Cursor config  ***********
+
+    "editor.cursorSmoothCaretAnimation": true, 
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "underline",
+
+    // **********  Font config  **********
+
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "editor.inlayHints.fontFamily": "'cascadia code'",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'Cascadia Code', monospace",
+    "editor.fontLigatures": true, 
+
+    // **********  Tree-sitter  ***********
+
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true 
+    },
+    "workbench.colorTheme": "Noctis",
+    "tabnine.experimentalAutoImports": true,
+
+    // **********  JAVA config  ***********
+
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/java-17-openjdk",
+            "default": true
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/usr/lib/jvm/junit-platform-console-standalone-1.8.2.jar"
+    ],
+
+    // **********  VIM config  ***********
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<tab>"],
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<shift+tab>"],
+            "commands": ["workbench.action.previousEditor"]
+        }
+    ],
+    "editor.lineNumbers": "on",
+
+    // **********  Bracket Pair Colorizer ********** 
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.editor.enablePreview": false,
+    "python.defaultInterpreterPath": "/bin/python",
+    "window.zoomLevel": 1,
+
+    // ********** Pylint Config **********
+
+    "python.linting.pylintArgs": [
+        "--disable=missing-class-docstring",
+        "--disable=missing-function-docstring",
+        "--disable=missing-module-docstring"
+    ]
+}
