@@ -29,6 +29,9 @@ alias ll='ls -l'
 alias lla='ls -la'
 alias la='ls -A'
 
+#Neovim
+alias v="nvim"
+
 command -V lsd > /dev/null && alias ls='lsd --group-dirs first' && \
     alias tree='lsd --tree'
 command -V colorls > /dev/null && alias ls='colorls --sd' && \

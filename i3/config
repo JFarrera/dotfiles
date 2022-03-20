@@ -233,7 +233,7 @@ smart_borders on
 for_window [class="^.*"] border pixel 3
 
 #--bg-fill
-exec feh --bg-fill /home/jfarrera/Images/norway.jpg
+exec feh --bg-fill /home/jfarrera/Images/neon_city_nord.png
 
 exec picom -b -f
 

@@ -70,7 +70,6 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "workbench.editor.enablePreview": false,
     "python.defaultInterpreterPath": "/bin/python",
-    "window.zoomLevel": 1,
 
     // ********** Pylint Config **********
 
@@ -78,5 +77,6 @@
         "--disable=missing-class-docstring",
         "--disable=missing-function-docstring",
         "--disable=missing-module-docstring"
-    ]
+    ],
+    "window.zoomLevel": 1
 }
